@@ -47,7 +47,7 @@ const page = () => {
   
   return (
     <>
-    <h1 className='bg-black text-white p-5 text-5xl font-bold text-center '>Sameer's Todo list</h1>
+    <h1 className='bg-black text-white p-5 text-5xl font-bold text-center '>My Todo list</h1>
     <form onSubmit={submitHandler} >
       <input type="text" className='text-2xl border-zinc-800 border-2 m-5 px-4 py-2'
       placeholder="Enetr Task here"
